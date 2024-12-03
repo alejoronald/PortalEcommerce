@@ -82,21 +82,39 @@ body {
     color: #666;
   }
   
-  /* Footer */
+  /* Features Section */
+.features {
+    padding: 40px;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .feature-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .feature {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .feature img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
   .footer {
     background: #003c99;
     color: white;
     text-align: center;
-    padding: 15px 10px;
+    padding: 20px 10px;
   }
   
-  .footer-links a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-  }
-  
-  .footer-links a:hover {
-    text-decoration: underline;
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
   }
   
