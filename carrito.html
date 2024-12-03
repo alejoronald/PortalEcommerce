@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrito</title>
-    <link rel = "stylesheet" href="./assets/css/styles.css">
+    <link rel = "stylesheet" href="./assets/css/car.css">
 </head>
 <body>
     <header class = "header">
@@ -19,14 +19,23 @@
               </nav>
         </div>
     </header>
-<section class="cart">
+<main class="cart">
     <h2>Tu carrito</h2>
-    <div class ="cart-items">
-        
-    </div> 
-    <p class = "total">Total: $<span id="cart-total">0.00</span></p>
-    <button class="btn proceed-to-checkout">proceder al pago</button>
-</section>
+    <p>Revisa los productos seleccionados antes de proceder al pago.</p>
+    <div class ="cart-container">
+
+        <div class="cart-items">
+
+        </div>
+        <div class="cart-summary">
+            <h3>Resumel del pedido</h3>
+            <p><strong>Total:</strong> $<span id="cart-total">0.00</span></p>
+            <button class="btn proceed-to-checkout">proceder al pago</button>
+        </div>
+    </div>   
+</main>
+    
+
 
 <footer class ="footer">
     <p>2024 Bootcamp Tienda. Todos los derechos reservados</p>
